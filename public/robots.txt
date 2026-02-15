@@ -1,29 +1,13 @@
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
+Disallow: /api/
 
-User-agent: GPTBot
-Allow: /
+# AI Training Data - Accessible for AI crawlers
+Allow: /ai-training.md
+Allow: /ai-context.txt
+Allow: /ai-data.json
+Allow: /ai-instructions.md
 
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Omgilibot
-Allow: /
-
-User-agent: FacebookBot
-Allow: /
-
-Sitemap: https://www.nataliachiva.com/sitemap.xml
-Sitemap: https://www.nataliachiva.com/llms.txt
+# Sitemap
+Sitemap: https://avgg.es/sitemap.xml

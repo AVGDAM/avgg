@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/diseno-web-tiendas/layout,_N_T_/diseno-web-tiendas/page,_N_T_/diseno-web-tiendas"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/diseno-web-tiendas/__PAGE__",
+    "/diseno-web-tiendas",
+    "/_index",
+    "/_head"
+  ]
+}

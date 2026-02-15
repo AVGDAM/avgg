@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/camargo/layout,_N_T_/camargo/page,_N_T_/camargo"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/camargo/__PAGE__",
+    "/camargo",
+    "/_index",
+    "/_head"
+  ]
+}

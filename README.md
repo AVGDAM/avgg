@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Diseño Web AVGG
 
-## Getting Started
+## 🚀 Proyecto Next.js 16 con App Router
 
-First, run the development server:
+Web de agencia digital moderna con tema "Nebula" espacial.
+
+### Stack Tecnológico
+
+- **Framework**: Next.js 16 (App Router)
+- **React**: 19
+- **Estilos**: Tailwind CSS
+- **Animaciones**: Framer Motion
+- **Iconos**: Lucide React
+- **Fuente**: Geist Sans
+
+### Características
+
+✨ Diseño moderno con tema espacial (Nebula)
+🎨 Glassmorphism y degradados llamativos
+📱 Totalmente responsive (Mobile-first)
+⚡ Server Actions para formularios
+🎭 Animaciones suaves con Framer Motion
+🌙 Optimizado para modo oscuro
+
+### Instalación
 
 ```bash
+# Instalar dependencias
+npm install
+
+# Ejecutar en desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Compilar para producción
+npm run build
+
+# Iniciar en producción
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Estructura del Proyecto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+avgg/
+├── app/
+│   ├── actions/
+│   │   └── contact.ts       # Server Actions
+│   ├── layout.tsx           # Layout principal con metadata SEO
+│   ├── page.tsx             # Página home
+│   └── globals.css          # Estilos globales
+├── components/
+│   ├── Navbar.tsx           # Navegación flotante
+│   ├── HeroSection.tsx      # Hero con CTAs
+│   ├── ServicesSection.tsx  # Grid de servicios
+│   ├── ProcessSection.tsx   # Timeline del proceso
+│   ├── PortfolioSection.tsx # Grid Bento de proyectos
+│   ├── OtherAppsSection.tsx # Cross-selling
+│   ├── ContactSection.tsx   # Formulario de contacto
+│   └── Footer.tsx           # Footer
+├── public/                  # Recursos estáticos
+├── tailwind.config.ts       # Configuración Tailwind
+├── next.config.ts           # Configuración Next.js
+└── package.json
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Secciones Principales
 
-## Learn More
+1. **Hero**: Título principal con CTAs destacados
+2. **Servicios**: Diseño Web, SEO/SEM, Marketing
+3. **Proceso**: Timeline de 4 pasos
+4. **Portfolio**: Proyectos destacados (Rualasal, Natalia Chiva, Carda)
+5. **Otras Apps**: PrensaPro, Videoconia, Documentolegalia
+6. **Contacto**: Formulario con Server Actions
 
-To learn more about Next.js, take a look at the following resources:
+### Personalización
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Colores
+Los colores personalizados están en `tailwind.config.ts`:
+- `nebula`: Tonos azul/cian
+- `cosmic`: Tonos violeta/púrpura
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### Metadata SEO
+Configurado en `app/layout.tsx` con título, descripción y Open Graph.
 
-## Deploy on Vercel
+#### Server Actions
+El formulario de contacto usa Server Actions (Next.js 16).
+Para configurar el envío de emails, edita `app/actions/contact.ts`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Próximos Pasos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [ ] Añadir imágenes reales de proyectos en `/public`
+- [ ] Configurar servicio de email (Resend, SendGrid, etc.)
+- [ ] Añadir sección de Blog
+- [ ] Implementar Analytics (Google Analytics, Vercel Analytics)
+- [ ] Optimizar imágenes con Next.js Image
+
+### Despliegue
+
+Recomendamos Vercel para el despliegue:
+
+```bash
+# Instalar Vercel CLI
+npm i -g vercel
+
+# Desplegar
+vercel
+```
+
+### Soporte
+
+Para consultas: info@avgg.es | 658 873 627
+
+---
+
+Desarrollado con ❤️ por AVGG

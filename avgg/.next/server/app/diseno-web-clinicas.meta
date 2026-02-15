@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/diseno-web-clinicas/layout,_N_T_/diseno-web-clinicas/page,_N_T_/diseno-web-clinicas"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/diseno-web-clinicas/__PAGE__",
+    "/diseno-web-clinicas",
+    "/_index",
+    "/_head"
+  ]
+}

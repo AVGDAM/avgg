@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/blog/layout,_N_T_/blog/necesito-pagina-web-para-mi-negocio/layout,_N_T_/blog/necesito-pagina-web-para-mi-negocio/page,_N_T_/blog/necesito-pagina-web-para-mi-negocio"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/blog/necesito-pagina-web-para-mi-negocio/__PAGE__",
+    "/blog/necesito-pagina-web-para-mi-negocio",
+    "/blog",
+    "/_index",
+    "/_head"
+  ]
+}

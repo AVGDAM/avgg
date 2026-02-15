@@ -1,0 +1,392 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/alicante",
+      "regex": "^/alicante(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/alicante(?:/)?$"
+    },
+    {
+      "page": "/apple-icon.png",
+      "regex": "^/apple\\-icon\\.png(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/apple\\-icon\\.png(?:/)?$"
+    },
+    {
+      "page": "/barcelona",
+      "regex": "^/barcelona(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/barcelona(?:/)?$"
+    },
+    {
+      "page": "/bilbao",
+      "regex": "^/bilbao(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/bilbao(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/blog/como-elegir-agencia-web-santander",
+      "regex": "^/blog/como\\-elegir\\-agencia\\-web\\-santander(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/como\\-elegir\\-agencia\\-web\\-santander(?:/)?$"
+    },
+    {
+      "page": "/blog/cuanto-cuesta-crear-pagina-web-santander",
+      "regex": "^/blog/cuanto\\-cuesta\\-crear\\-pagina\\-web\\-santander(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/cuanto\\-cuesta\\-crear\\-pagina\\-web\\-santander(?:/)?$"
+    },
+    {
+      "page": "/blog/errores-comunes-diseno-web",
+      "regex": "^/blog/errores\\-comunes\\-diseno\\-web(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/errores\\-comunes\\-diseno\\-web(?:/)?$"
+    },
+    {
+      "page": "/blog/geo-optimization-inteligencia-artificial",
+      "regex": "^/blog/geo\\-optimization\\-inteligencia\\-artificial(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/geo\\-optimization\\-inteligencia\\-artificial(?:/)?$"
+    },
+    {
+      "page": "/blog/necesito-pagina-web-para-mi-negocio",
+      "regex": "^/blog/necesito\\-pagina\\-web\\-para\\-mi\\-negocio(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/necesito\\-pagina\\-web\\-para\\-mi\\-negocio(?:/)?$"
+    },
+    {
+      "page": "/blog/que-es-programmatic-seo",
+      "regex": "^/blog/que\\-es\\-programmatic\\-seo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/que\\-es\\-programmatic\\-seo(?:/)?$"
+    },
+    {
+      "page": "/blog/seo-local-santander-cantabria",
+      "regex": "^/blog/seo\\-local\\-santander\\-cantabria(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/seo\\-local\\-santander\\-cantabria(?:/)?$"
+    },
+    {
+      "page": "/blog/tendencias-diseno-web-2026",
+      "regex": "^/blog/tendencias\\-diseno\\-web\\-2026(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/tendencias\\-diseno\\-web\\-2026(?:/)?$"
+    },
+    {
+      "page": "/blog/tienda-online-vs-redes-sociales",
+      "regex": "^/blog/tienda\\-online\\-vs\\-redes\\-sociales(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/tienda\\-online\\-vs\\-redes\\-sociales(?:/)?$"
+    },
+    {
+      "page": "/camargo",
+      "regex": "^/camargo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/camargo(?:/)?$"
+    },
+    {
+      "page": "/castro-urdiales",
+      "regex": "^/castro\\-urdiales(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/castro\\-urdiales(?:/)?$"
+    },
+    {
+      "page": "/comillas",
+      "regex": "^/comillas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/comillas(?:/)?$"
+    },
+    {
+      "page": "/contacto",
+      "regex": "^/contacto(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contacto(?:/)?$"
+    },
+    {
+      "page": "/cookies",
+      "regex": "^/cookies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cookies(?:/)?$"
+    },
+    {
+      "page": "/cordoba",
+      "regex": "^/cordoba(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cordoba(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-abogados",
+      "regex": "^/diseno\\-web\\-abogados(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-abogados(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-asesorias",
+      "regex": "^/diseno\\-web\\-asesorias(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-asesorias(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-clinicas",
+      "regex": "^/diseno\\-web\\-clinicas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-clinicas(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-constructoras",
+      "regex": "^/diseno\\-web\\-constructoras(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-constructoras(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-dentistas",
+      "regex": "^/diseno\\-web\\-dentistas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-dentistas(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-gimnasios",
+      "regex": "^/diseno\\-web\\-gimnasios(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-gimnasios(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-hoteles",
+      "regex": "^/diseno\\-web\\-hoteles(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-hoteles(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-inmobiliarias",
+      "regex": "^/diseno\\-web\\-inmobiliarias(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-inmobiliarias(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-peluquerias",
+      "regex": "^/diseno\\-web\\-peluquerias(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-peluquerias(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-psicologos",
+      "regex": "^/diseno\\-web\\-psicologos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-psicologos(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-restaurantes",
+      "regex": "^/diseno\\-web\\-restaurantes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-restaurantes(?:/)?$"
+    },
+    {
+      "page": "/diseno-web-tiendas",
+      "regex": "^/diseno\\-web\\-tiendas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/diseno\\-web\\-tiendas(?:/)?$"
+    },
+    {
+      "page": "/el-astillero",
+      "regex": "^/el\\-astillero(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/el\\-astillero(?:/)?$"
+    },
+    {
+      "page": "/gijon",
+      "regex": "^/gijon(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/gijon(?:/)?$"
+    },
+    {
+      "page": "/granada",
+      "regex": "^/granada(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/granada(?:/)?$"
+    },
+    {
+      "page": "/icon.png",
+      "regex": "^/icon\\.png(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/icon\\.png(?:/)?$"
+    },
+    {
+      "page": "/laredo",
+      "regex": "^/laredo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/laredo(?:/)?$"
+    },
+    {
+      "page": "/madrid",
+      "regex": "^/madrid(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/madrid(?:/)?$"
+    },
+    {
+      "page": "/malaga",
+      "regex": "^/malaga(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/malaga(?:/)?$"
+    },
+    {
+      "page": "/murcia",
+      "regex": "^/murcia(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/murcia(?:/)?$"
+    },
+    {
+      "page": "/palma-de-mallorca",
+      "regex": "^/palma\\-de\\-mallorca(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/palma\\-de\\-mallorca(?:/)?$"
+    },
+    {
+      "page": "/pielagos",
+      "regex": "^/pielagos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pielagos(?:/)?$"
+    },
+    {
+      "page": "/politica-privacidad",
+      "regex": "^/politica\\-privacidad(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/politica\\-privacidad(?:/)?$"
+    },
+    {
+      "page": "/proyectos",
+      "regex": "^/proyectos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/proyectos(?:/)?$"
+    },
+    {
+      "page": "/santander",
+      "regex": "^/santander(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/santander(?:/)?$"
+    },
+    {
+      "page": "/santona",
+      "regex": "^/santona(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/santona(?:/)?$"
+    },
+    {
+      "page": "/sevilla",
+      "regex": "^/sevilla(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sevilla(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/suances",
+      "regex": "^/suances(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/suances(?:/)?$"
+    },
+    {
+      "page": "/terminos",
+      "regex": "^/terminos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terminos(?:/)?$"
+    },
+    {
+      "page": "/torrelavega",
+      "regex": "^/torrelavega(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/torrelavega(?:/)?$"
+    },
+    {
+      "page": "/valencia",
+      "regex": "^/valencia(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/valencia(?:/)?$"
+    },
+    {
+      "page": "/valladolid",
+      "regex": "^/valladolid(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/valladolid(?:/)?$"
+    },
+    {
+      "page": "/vigo",
+      "regex": "^/vigo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/vigo(?:/)?$"
+    },
+    {
+      "page": "/zaragoza",
+      "regex": "^/zaragoza(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/zaragoza(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

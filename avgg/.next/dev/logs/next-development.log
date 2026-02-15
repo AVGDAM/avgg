@@ -1,0 +1,17 @@
+[00:00:02.922] Server  LOG     ✓ Ready in 2.3s
+[00:00:05.572] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:32.155] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:32.237] Server  ERROR   ⨯ "unhandledRejection:" Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:32.242] Server  ERROR   ⨯ "unhandledRejection: " Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:32.976] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:33.111] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:33.631] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:33.688] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:34.049] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:34.072] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:34.101] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:34.112] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:34.120] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:34.146] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/Users/avg/nataliachiva/avgg/app'
+[00:12:37.189] Server  LOG     ✓ Compiled in 7.1s

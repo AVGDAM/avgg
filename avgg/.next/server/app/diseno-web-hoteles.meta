@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/diseno-web-hoteles/layout,_N_T_/diseno-web-hoteles/page,_N_T_/diseno-web-hoteles"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/diseno-web-hoteles/__PAGE__",
+    "/diseno-web-hoteles",
+    "/_index",
+    "/_head"
+  ]
+}
