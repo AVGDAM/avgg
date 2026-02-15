@@ -1,0 +1,43 @@
+{
+  "name": "Natalia Chiva - Psicóloga Sanitaria en Santander",
+  "short_name": "Natalia Chiva",
+  "description": "Psicóloga sanitaria en Santander. Especialista en ansiedad, depresión, terapia de pareja y familia. Consulta presencial y online.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#C4A57B",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "medical", "lifestyle"],
+  "lang": "es-ES",
+  "dir": "ltr",
+  "shortcuts": [
+    {
+      "name": "Reservar Cita",
+      "short_name": "Cita",
+      "description": "Reserva tu consulta",
+      "url": "https://www.mundoctor.com/psicologia/santander/natalia-chiva-montoya",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contacto",
+      "short_name": "Contacto",
+      "description": "Información de contacto",
+      "url": "/contacto",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
