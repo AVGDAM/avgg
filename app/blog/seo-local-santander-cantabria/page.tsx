@@ -8,6 +8,33 @@ import { Calendar, Clock, ArrowLeft, Share2, MapPin, Star, TrendingUp, CheckCirc
 export const metadata: Metadata = {
   title: 'SEO Local en Santander: Cómo aparecer en Google Maps | AVGG',
   description: 'Guía completa para posicionar tu negocio en Santander en Google Maps y búsquedas locales. Atrae clientes de tu zona que ya están buscando lo que ofreces.',
+  openGraph: {
+    title: 'SEO Local en Santander: Cómo aparecer en Google Maps',
+    description: 'Guía completa para posicionar tu negocio en Santander en Google Maps y búsquedas locales.',
+    url: 'https://avgg.es/blog/seo-local-santander-cantabria',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'article',
+    publishedTime: '2026-02-02T00:00:00.000Z',
+    authors: ['AVGG'],
+    images: [
+      {
+        url: '/blog/blog-seo-local.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'SEO Local en Santander - Google Maps',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SEO Local en Santander: Cómo aparecer en Google Maps',
+    description: 'Guía completa para posicionar tu negocio en Santander en Google Maps y búsquedas locales.',
+    images: ['/blog/blog-seo-local.jpg'],
+  },
+  alternates: {
+    canonical: 'https://avgg.es/blog/seo-local-santander-cantabria',
+  },
 };
 
 export default function ArticlePage() {

@@ -8,6 +8,33 @@ import { Calendar, Clock, ArrowLeft, Share2, CheckCircle2, AlertTriangle, FileCh
 export const metadata: Metadata = {
   title: 'Cómo elegir una agencia de diseño web en Santander (sin morir en el intento) | AVGG',
   description: 'No todas las agencias web son iguales. Checklist definitivo para contratar diseñadores web en Cantabria y evitar problemas, retrasos y sobrecostes.',
+  openGraph: {
+    title: 'Cómo elegir una agencia de diseño web en Santander (sin morir en el intento)',
+    description: 'No todas las agencias web son iguales. Checklist definitivo para contratar diseñadores web en Cantabria y evitar problemas, retrasos y sobrecostes.',
+    url: 'https://avgg.es/blog/como-elegir-agencia-web-santander',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'article',
+    publishedTime: '2026-02-08T00:00:00.000Z',
+    authors: ['AVGG'],
+    images: [
+      {
+        url: '/blog/blog-elegir-agencia.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Cómo elegir una agencia de diseño web en Santander',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cómo elegir una agencia de diseño web en Santander (sin morir en el intento)',
+    description: 'Checklist definitivo para contratar diseñadores web en Cantabria.',
+    images: ['/blog/blog-elegir-agencia.jpg'],
+  },
+  alternates: {
+    canonical: 'https://avgg.es/blog/como-elegir-agencia-web-santander',
+  },
 };
 
 export default function ArticlePage() {

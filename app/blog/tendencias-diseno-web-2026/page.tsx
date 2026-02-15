@@ -8,6 +8,33 @@ import { Calendar, Clock, ArrowLeft, Share2, Sparkles, Zap, TrendingUp } from 'l
 export const metadata: Metadata = {
   title: 'Tendencias de diseño web en 2026: Lo que funciona (y lo que ya no) | AVGG',
   description: 'Diseños minimalistas, animaciones sutiles, tipografías grandes y velocidad extrema. Descubre qué buscan los usuarios en una web moderna en 2026.',
+  openGraph: {
+    title: 'Tendencias de diseño web en 2026: Lo que funciona (y lo que ya no)',
+    description: 'Diseños minimalistas, animaciones sutiles, tipografías grandes y velocidad extrema. Descubre qué buscan los usuarios en una web moderna en 2026.',
+    url: 'https://avgg.es/blog/tendencias-diseno-web-2026',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'article',
+    publishedTime: '2026-02-14T00:00:00.000Z',
+    authors: ['AVGG'],
+    images: [
+      {
+        url: '/blog/blog-tendencias-2026.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Tendencias de diseño web en 2026',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tendencias de diseño web en 2026: Lo que funciona (y lo que ya no)',
+    description: 'Diseños minimalistas, animaciones sutiles, tipografías grandes y velocidad extrema.',
+    images: ['/blog/blog-tendencias-2026.jpg'],
+  },
+  alternates: {
+    canonical: 'https://avgg.es/blog/tendencias-diseno-web-2026',
+  },
 };
 
 export default function ArticlePage() {

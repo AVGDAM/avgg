@@ -10,6 +10,14 @@ export const metadata: Metadata = {
     index: false,
     follow: true,
   },
+  openGraph: {
+    title: 'Términos y Condiciones | AVGG',
+    description: 'Términos y condiciones de uso del sitio web de AVGG.',
+    url: 'https://avgg.es/terminos',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'website',
+  },
   alternates: {
     canonical: 'https://avgg.es/terminos',
   },

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import CookieBanner from '@/components/CookieBanner';
+import WhatsAppButton from '@/components/WhatsAppButton';
 import { OrganizationSchema, WebSiteSchema } from '@/components/StructuredData';
 
 const inter = Inter({
@@ -74,6 +75,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <WebSiteSchema />
         {children}
         <CookieBanner />
+        <WhatsAppButton />
       </body>
     </html>
   );

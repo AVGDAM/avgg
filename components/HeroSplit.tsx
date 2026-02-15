@@ -3,6 +3,12 @@
 import { ArrowDownRight } from 'lucide-react';
 
 export default function HeroSplit() {
+  const handleWhatsAppClick = () => {
+    const phoneNumber = '34658873627';
+    const message = encodeURIComponent('¡Hola! Me gustaría empezar un proyecto web con vosotros.');
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+  };
+
   return (
     <section className="min-h-screen flex flex-col justify-center pt-20 px-6 relative overflow-hidden">
       {/* Floating elements - decorative */}
@@ -65,10 +71,13 @@ export default function HeroSplit() {
 
           {/* Right - CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 md:justify-end">
-            <a href="#contacto" className="inline-flex items-center gap-2 px-8 py-4 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-colors font-medium">
+            <button 
+              onClick={handleWhatsAppClick}
+              className="inline-flex items-center gap-2 px-8 py-4 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-colors font-medium"
+            >
               Empezar un proyecto
               <ArrowDownRight size={18} />
-            </a>
+            </button>
             <a href="#trabajos" className="inline-flex items-center gap-2 px-8 py-4 bg-gray-100 text-gray-900 rounded-full hover:bg-gray-200 transition-colors font-medium">
               Ver trabajos
             </a>

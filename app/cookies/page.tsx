@@ -10,6 +10,14 @@ export const metadata: Metadata = {
     index: false,
     follow: true,
   },
+  openGraph: {
+    title: 'Política de Cookies | AVGG',
+    description: 'Información sobre el uso de cookies en AVGG.',
+    url: 'https://avgg.es/cookies',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'website',
+  },
   alternates: {
     canonical: 'https://avgg.es/cookies',
   },

@@ -8,6 +8,33 @@ import { Calendar, Clock, ArrowLeft, Share2, ShoppingCart, Instagram as Instagra
 export const metadata: Metadata = {
   title: 'Tienda online vs Instagram: ¿Dónde vender mejor en 2026? | AVGG',
   description: 'Vender por Instagram está bien, pero sin web propia dependes de algoritmos ajenos. Descubre por qué necesitas tu propia tienda online.',
+  openGraph: {
+    title: 'Tienda online vs Instagram: ¿Dónde vender mejor en 2026?',
+    description: 'Vender por Instagram está bien, pero sin web propia dependes de algoritmos ajenos. Descubre por qué necesitas tu propia tienda online.',
+    url: 'https://avgg.es/blog/tienda-online-vs-redes-sociales',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'article',
+    publishedTime: '2026-02-12T00:00:00.000Z',
+    authors: ['AVGG'],
+    images: [
+      {
+        url: '/blog/blog-tienda-vs-rrss.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Tienda online vs Redes Sociales',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tienda online vs Instagram: ¿Dónde vender mejor en 2026?',
+    description: 'Por qué necesitas tu propia tienda online.',
+    images: ['/blog/blog-tienda-vs-rrss.jpg'],
+  },
+  alternates: {
+    canonical: 'https://avgg.es/blog/tienda-online-vs-redes-sociales',
+  },
 };
 
 export default function ArticlePage() {

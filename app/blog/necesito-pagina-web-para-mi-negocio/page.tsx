@@ -8,6 +8,33 @@ import { Calendar, Clock, ArrowLeft, Share2, AlertTriangle, CheckCircle2, Trendi
 export const metadata: Metadata = {
   title: '¿Necesito realmente una página web para mi negocio? | AVGG',
   description: 'Si tu competencia aparece en Google y tú no, estás perdiendo clientes. Te explicamos por qué tener web ya no es opcional en 2026.',
+  openGraph: {
+    title: '¿Necesito realmente una página web para mi negocio?',
+    description: 'Si tu competencia aparece en Google y tú no, estás perdiendo clientes. Te explicamos por qué tener web ya no es opcional en 2026.',
+    url: 'https://avgg.es/blog/necesito-pagina-web-para-mi-negocio',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'article',
+    publishedTime: '2026-02-01T00:00:00.000Z',
+    authors: ['AVGG'],
+    images: [
+      {
+        url: '/blog/blog-necesito-web.jpg',
+        width: 1200,
+        height: 630,
+        alt: '¿Necesito una página web para mi negocio?',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '¿Necesito realmente una página web para mi negocio?',
+    description: 'Por qué tener web ya no es opcional en 2026.',
+    images: ['/blog/blog-necesito-web.jpg'],
+  },
+  alternates: {
+    canonical: 'https://avgg.es/blog/necesito-pagina-web-para-mi-negocio',
+  },
 };
 
 export default function ArticlePage() {

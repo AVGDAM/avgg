@@ -8,6 +8,33 @@ import { Calendar, Clock, ArrowLeft, Share2, CheckCircle2, AlertCircle, Euro } f
 export const metadata: Metadata = {
   title: '¿Cuánto cuesta crear una página web en Santander? | AVGG',
   description: 'Descubre los precios reales de diseño web en Santander en 2026. Guía completa con costes, qué incluye cada paquete y cómo elegir sin sorpresas.',
+  openGraph: {
+    title: '¿Cuánto cuesta crear una página web en Santander?',
+    description: 'Descubre los precios reales de diseño web en Santander en 2026. Guía completa con costes, qué incluye cada paquete y cómo elegir sin sorpresas.',
+    url: 'https://avgg.es/blog/cuanto-cuesta-crear-pagina-web-santander',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'article',
+    publishedTime: '2026-02-10T00:00:00.000Z',
+    authors: ['AVGG'],
+    images: [
+      {
+        url: '/blog/blog-precios-web.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Precios de diseño web en Santander',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '¿Cuánto cuesta crear una página web en Santander?',
+    description: 'Precios reales de diseño web en Santander en 2026.',
+    images: ['/blog/blog-precios-web.jpg'],
+  },
+  alternates: {
+    canonical: 'https://avgg.es/blog/cuanto-cuesta-crear-pagina-web-santander',
+  },
 };
 
 export default function ArticlePage() {

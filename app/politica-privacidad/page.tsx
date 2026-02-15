@@ -9,6 +9,14 @@ export const metadata: Metadata = {
     index: false,
     follow: true,
   },
+  openGraph: {
+    title: 'Política de Privacidad | AVGG',
+    description: 'Política de privacidad y protección de datos de AVGG.',
+    url: 'https://avgg.es/politica-privacidad',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'website',
+  },
   alternates: {
     canonical: 'https://avgg.es/politica-privacidad',
   },

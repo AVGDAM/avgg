@@ -8,6 +8,33 @@ import { Calendar, Clock, ArrowLeft, Share2, XCircle, AlertTriangle } from 'luci
 export const metadata: Metadata = {
   title: '7 errores que matan tu página web (y espantan clientes) | AVGG',
   description: 'Tu web puede estar ahuyentando clientes sin que lo sepas. Descubre los 7 errores más comunes en diseño web y cómo solucionarlos hoy mismo.',
+  openGraph: {
+    title: '7 errores que matan tu página web (y espantan clientes)',
+    description: 'Tu web puede estar ahuyentando clientes sin que lo sepas. Descubre los 7 errores más comunes en diseño web y cómo solucionarlos hoy mismo.',
+    url: 'https://avgg.es/blog/errores-comunes-diseno-web',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'article',
+    publishedTime: '2026-02-05T00:00:00.000Z',
+    authors: ['AVGG'],
+    images: [
+      {
+        url: '/blog/blog-errores-diseno.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Errores comunes en diseño web',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '7 errores que matan tu página web (y espantan clientes)',
+    description: 'Descubre los 7 errores más comunes en diseño web.',
+    images: ['/blog/blog-errores-diseno.jpg'],
+  },
+  alternates: {
+    canonical: 'https://avgg.es/blog/errores-comunes-diseno-web',
+  },
 };
 
 export default function ArticlePage() {

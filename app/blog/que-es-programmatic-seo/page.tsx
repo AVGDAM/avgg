@@ -8,6 +8,33 @@ import { Calendar, Clock, ArrowLeft, Share2, Zap, Target, TrendingUp } from 'luc
 export const metadata: Metadata = {
   title: '¿Qué es el Programmatic SEO y cómo multiplicar tu tráfico? | AVGG',
   description: 'Aprende cómo generar automáticamente cientos de páginas optimizadas para posicionarte en búsquedas de larga cola y captar más clientes sin crear contenido manual.',
+  openGraph: {
+    title: '¿Qué es el Programmatic SEO y cómo multiplicar tu tráfico?',
+    description: 'Aprende cómo generar automáticamente cientos de páginas optimizadas para posicionarte en búsquedas de larga cola y captar más clientes.',
+    url: 'https://avgg.es/blog/que-es-programmatic-seo',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'article',
+    publishedTime: '2026-02-11T00:00:00.000Z',
+    authors: ['AVGG'],
+    images: [
+      {
+        url: '/blog/blog-programmatic-seo.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Programmatic SEO',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '¿Qué es el Programmatic SEO y cómo multiplicar tu tráfico?',
+    description: 'Genera automáticamente cientos de páginas optimizadas.',
+    images: ['/blog/blog-programmatic-seo.jpg'],
+  },
+  alternates: {
+    canonical: 'https://avgg.es/blog/que-es-programmatic-seo',
+  },
 };
 
 export default function ArticlePage() {

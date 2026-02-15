@@ -8,6 +8,33 @@ import { Calendar, Clock, ArrowLeft, Share2, Brain, Sparkles, CheckCircle2 } fro
 export const metadata: Metadata = {
   title: 'GEO: Cómo posicionar tu web en ChatGPT y Perplexity | AVGG',
   description: 'Descubre cómo optimizar tu contenido para que las IAs como ChatGPT recomienden tu negocio cuando los usuarios pregunten.',
+  openGraph: {
+    title: 'GEO: Cómo posicionar tu web en ChatGPT y Perplexity',
+    description: 'Descubre cómo optimizar tu contenido para que las IAs como ChatGPT recomienden tu negocio cuando los usuarios pregunten.',
+    url: 'https://avgg.es/blog/geo-optimization-inteligencia-artificial',
+    siteName: 'AVGG',
+    locale: 'es_ES',
+    type: 'article',
+    publishedTime: '2026-02-13T00:00:00.000Z',
+    authors: ['AVGG'],
+    images: [
+      {
+        url: '/blog/blog-geo-ai.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'GEO - Optimización para Inteligencia Artificial',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'GEO: Cómo posicionar tu web en ChatGPT y Perplexity',
+    description: 'Optimiza tu contenido para IAs como ChatGPT.',
+    images: ['/blog/blog-geo-ai.jpg'],
+  },
+  alternates: {
+    canonical: 'https://avgg.es/blog/geo-optimization-inteligencia-artificial',
+  },
 };
 
 export default function ArticlePage() {
