@@ -227,7 +227,7 @@ export default function TestAutoestimaPage() {
               </ul>
             </div>
 
-            {(result.level === "alto" || result.level === "muy-alto") && (
+            {(result.level === "medio" || result.level === "muy-alto") && (
               <div className="bg-gradient-to-r from-beige to-blue-gray dark:from-slate-900 dark:to-slate-800 rounded-xl p-8 text-center text-white mb-6">
                 <h3 className="text-2xl font-bold mb-3">¿Necesitas ayuda profesional?</h3>
                 <p className="text-white/90 dark:text-slate-300 mb-6">
