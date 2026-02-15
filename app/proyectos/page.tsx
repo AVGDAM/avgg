@@ -28,11 +28,11 @@ const projects = [
     tag: 'Plataforma · Salud',
   },
   {
-    name: 'Consultas Rualasal',
-    url: 'https://consultasrualasal.com',
-    description: 'Alquiler de consultas médicas para profesionales sanitarios. Ofrecemos flexibilidad, licencia sanitaria, consultas equipadas, recepción y sala de espera. Centro de consultas ubicado en el centro de Santander con instalaciones atractivas y despachos completamente equipados para actividades sanitarias.',
-    color: 'bg-blue-50',
-    tag: 'Web Corporativa · Salud',
+    name: 'Natalia Chiva',
+    url: 'https://nataliachiva.com',
+    description: 'Psicóloga Sanitaria en Santander. Terapia individual y de pareja, apoyo y acompañamiento psicológico para adultos y adolescentes. Mejora tu bienestar.',
+    color: 'bg-orange-50',
+    tag: 'Web Profesional · Psicología',
   },
   {
     name: 'CCR Psicología',
@@ -63,11 +63,11 @@ const projects = [
     tag: 'Portfolio · Arquitectura',
   },
   {
-    name: 'Natalia Chiva',
-    url: 'https://nataliachiva.com',
-    description: 'Psicóloga Sanitaria en Santander. Terapia individual y de pareja, apoyo y acompañamiento psicológico para adultos y adolescentes. Mejora tu bienestar.',
-    color: 'bg-orange-50',
-    tag: 'Web Profesional · Psicología',
+    name: 'Consultas Rualasal',
+    url: 'https://consultasrualasal.com',
+    description: 'Alquiler de consultas médicas para profesionales sanitarios. Ofrecemos flexibilidad, licencia sanitaria, consultas equipadas, recepción y sala de espera. Centro de consultas ubicado en el centro de Santander con instalaciones atractivas y despachos completamente equipados para actividades sanitarias.',
+    color: 'bg-blue-50',
+    tag: 'Web Corporativa · Salud',
   },
   {
     name: 'Dr. Juan Solana',

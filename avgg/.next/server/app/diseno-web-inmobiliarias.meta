@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/diseno-web-inmobiliarias/layout,_N_T_/diseno-web-inmobiliarias/page,_N_T_/diseno-web-inmobiliarias"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/diseno-web-inmobiliarias/__PAGE__",
+    "/diseno-web-inmobiliarias",
+    "/_index",
+    "/_head"
+  ]
+}

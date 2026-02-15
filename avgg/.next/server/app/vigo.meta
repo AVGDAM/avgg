@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/vigo/layout,_N_T_/vigo/page,_N_T_/vigo"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/vigo/__PAGE__",
+    "/vigo",
+    "/_index",
+    "/_head"
+  ]
+}
