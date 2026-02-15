@@ -1,0 +1,13 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# AI Training Data - Accessible for AI crawlers
+Allow: /ai-training.md
+Allow: /ai-context.txt
+Allow: /ai-data.json
+Allow: /ai-instructions.md
+
+# Sitemap
+Sitemap: https://avgg.es/sitemap.xml
